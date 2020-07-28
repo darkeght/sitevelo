@@ -1,0 +1,1302 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>MaxiCom - Internedt Provider HTML template</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="css\bootstrap.min.css">
+	<link rel="stylesheet" href="css\animations.css">
+	<link rel="stylesheet" href="css\font-awesome.css">
+	<link rel="stylesheet" href="css\main.css" class="color-switcher-link">
+	<link rel="stylesheet" href="css\shop.css" class="color-switcher-link">
+	<script src="js\vendor\modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="color-main">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="widget widget_search">
+			<a href="shop-account-address-edit.html" class="logo">
+				<span class="logo-text py-20"><strong>Maxi</strong>com</span>
+			</a>
+			<form method="get" class="searchform search-form" action="/">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="btn">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls p-normal">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div><!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+			<!--topline section visible only on small screens|-->
+			<section class="page_topline ls s-borderbottom c-my-10 c-my-lg-20">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-md-6 text-md-left text-center">
+							<ul class="top-includes">
+								<li>
+									<span class="icon-inline">
+										<span class="icon-styled color-main fs-14">
+											<i class="fa fa-phone"></i>
+										</span>
+										<span class="small-text">
+											<a href="#">800 - 123-45-67</a>
+										</span>
+									</span>
+								</li>
+								<li>
+									<span class="icon-inline">
+										<span class="icon-styled color-main fs-14">
+											<i class="fa fa-pencil"></i>
+										</span>
+										<span class="small-text">
+											<a href="#">maxicom@example.com</a>
+										</span>
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6 text-center text-md-right d-none d-md-block">
+							<ul class="top-includes">
+								<li>
+									<span class="icon-inline">
+										<span class="icon-styled color-main2 fs-14">
+											<i class="fa fa-comment"></i>
+										</span>
+										<span class="small-text">
+											<a class="hover-main2" href="#">request a quote</a>
+										</span>
+									</span>
+								</li>
+								<li>
+									<span class="icon-inline">
+										<span class="icon-styled color-main2 fs-14">
+											<i class="fa fa-user"></i>
+										</span>
+										<span class="small-text">
+											<a class="hover-main2" href="#"> Login in / sign up</a>
+										</span>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!--eof topline-->
+
+			<div class="header_absolute header_layout_1">
+				<div id="particles-js"></div>
+				<!-- header with two Bootstrap columns - left for logo and right for navigation and includes (search, social icons, additional links and buttons etc -->
+				<header class="page_header ls justify-nav-end">
+					<div class="container-fluid">
+						<div class="row align-items-center">
+							<div class="col-xl-2 col-lg-4 col-md-5 col-11">
+								<a href="shop-account-address-edit.html" class="logo">
+									<span class="logo-text py-20"><strong>Maxi</strong>com</span>
+								</a>
+							</div>
+							<div class="col-xl-9 col-lg-8 col-md-7 col-1">
+								<div class="nav-wrap">
+
+									<!-- main nav start -->
+									<nav class="top-nav">
+										<ul class="nav sf-menu">
+
+
+											<li class="active">
+												<a href="index.html">Home</a>
+												<ul>
+													<li>
+														<a href="index.html">Home 1</a>
+													</li>
+													<li>
+														<a href="index2.html">Home 2</a>
+													</li>
+													<li>
+														<a href="index_static.html">Static Intro</a>
+													</li>
+													<li>
+														<a href="index_singlepage.html">Single Page</a>
+													</li>
+												</ul>
+											</li>
+
+											<li>
+												<a href="about.html">Pages</a>
+												<ul>
+													<li>
+														<a href="about.html">About</a>
+													</li>
+													<li>
+														<a href="team.html">Team</a>
+														<ul>
+															<li>
+																<a href="team.html">Team List</a>
+															</li>
+															<li>
+																<a href="team-single.html">Team Member</a>
+															</li>
+														</ul>
+													</li>
+													<li>
+														<a href="services.html">Our Services</a>
+														<ul>
+															<li>
+																<a href="services.html">Services 1</a>
+															</li>
+															<li>
+																<a href="services2.html">Services 2</a>
+															</li>
+															<li>
+																<a href="services3.html">Services 3</a>
+															</li>
+															<li>
+																<a href="service-single.html">Single Service</a>
+															</li>
+														</ul>
+													</li>
+													<li>
+														<a href="availability-map.html">Availability Map</a>
+													</li>
+													<li>
+														<a href="booking-form.html">Booking Form</a>
+													</li>
+													<!-- gallery -->
+													<li>
+														<a href="gallery-image.html">Gallery</a>
+														<ul>
+															<!-- Gallery image only -->
+															<li>
+																<a href="gallery-image.html">Gallery Regular</a>
+																<ul>
+																	<li>
+																		<a href="gallery-image-2-cols.html">2 columns</a>
+																	</li>
+																	<li>
+																		<a href="gallery-image.html">3 columns</a>
+																	</li>
+																	<li>
+																		<a href="gallery-image-4-cols-fullwidth.html">4 columns fullwidth</a>
+																	</li>
+
+																</ul>
+															</li>
+															<!-- eof Gallery image only -->
+
+															<!-- Gallery with title -->
+															<li>
+																<a href="gallery-title.html">Gallery Title</a>
+																<ul>
+																	<li>
+																		<a href="gallery-title-2-cols.html">2 columns</a>
+																	</li>
+																	<li>
+																		<a href="gallery-title.html">3 column</a>
+																	</li>
+																	<li>
+																		<a href="gallery-title-4-cols-fullwidth.html">4 columns fullwidth</a>
+																	</li>
+																</ul>
+															</li>
+															<!-- eof Gallery with title -->
+
+															<!-- Gallery with excerpt -->
+															<li>
+																<a href="gallery-excerpt.html">Gallery Excerpt</a>
+																<ul>
+																	<li>
+																		<a href="gallery-excerpt-2-cols.html">2 columns</a>
+																	</li>
+																	<li>
+																		<a href="gallery-excerpt.html">3 column</a>
+																	</li>
+																	<li>
+																		<a href="gallery-excerpt-4-cols-fullwidth.html">4 columns fullwdith</a>
+																	</li>
+																</ul>
+															</li>
+															<!-- eof Gallery with excerpt -->
+
+															<li>
+																<a href="gallery-tiled.html">Tiled Gallery</a>
+															</li>
+
+															<!-- Gallery item -->
+															<li>
+																<a href="gallery-single.html">Gallery Single</a>
+															</li>
+															<!-- eof Gallery item -->
+														</ul>
+													</li>
+													<!-- eof Gallery -->
+
+													<li>
+														<a href="pricing.html">Pricing</a>
+													</li>
+
+
+													<!-- events -->
+													<li>
+														<a href="events-left.html">Events</a>
+														<ul>
+															<li>
+																<a href="events-left.html">Left Sidebar</a>
+															</li>
+															<li>
+																<a href="events-right.html">Right Sidebar</a>
+															</li>
+															<li>
+																<a href="events-full.html">Full Width</a>
+															</li>
+															<li>
+																<a href="event-single-left.html">Single Event</a>
+																<ul>
+																	<li>
+																		<a href="event-single-left.html">Left Sidebar</a>
+																	</li>
+																	<li>
+																		<a href="event-single-right.html">Right Sidebar</a>
+																	</li>
+																	<li>
+																		<a href="event-single-full.html">Full Width</a>
+																	</li>
+																</ul>
+															</li>
+														</ul>
+													</li>
+													<!-- eof events -->
+													<li>
+														<a href="faq.html">FAQ</a>
+														<ul>
+															<li>
+																<a href="faq.html">FAQ</a>
+															</li>
+															<li>
+																<a href="faq2.html">FAQ 2</a>
+															</li>
+														</ul>
+													</li>
+													<!-- shop -->
+													<li>
+														<a href="shop-full.html">Shop</a>
+														<ul>
+															<li>
+																<a href="shop-account-dashboard.html">Account</a>
+																<ul>
+
+																	<li>
+																		<a href="shop-account-details.html">Account details</a>
+																	</li>
+																	<li>
+																		<a href="shop-account-addresses.html">Addresses</a>
+																	</li>
+																	<li>
+																		<a href="shop-account-address-edit.html">Edit Address</a>
+																	</li>
+																	<li>
+																		<a href="shop-account-orders.html">Orders</a>
+																	</li>
+																	<li>
+																		<a href="shop-account-order-single.html">Single Order</a>
+																	</li>
+																	<li>
+																		<a href="shop-account-downloads.html">Downloads</a>
+																	</li>
+																	<li>
+																		<a href="shop-account-password-reset.html">Password Reset</a>
+																	</li>
+																	<li>
+																		<a href="shop-account-login.html">Login/Logout</a>
+																	</li>
+
+																</ul>
+															</li>
+															<li>
+																<a href="shop-full.html">Shop Full Width</a>
+															</li>
+															<li>
+																<a href="shop-left.html">Shop Left Sidebar</a>
+															</li>
+															<li>
+																<a href="shop-right.html">Shop Right Sidebar</a>
+															</li>
+															<li>
+																<a href="shop-product-right.html">Product Right Sidebar</a>
+															</li>
+															<li>
+																<a href="shop-product-left.html">Product Left Sidebar</a>
+															</li>
+															<li>
+																<a href="shop-cart.html">Cart</a>
+															</li>
+															<li>
+																<a href="shop-checkout.html">Checkout</a>
+															</li>
+															<li>
+																<a href="shop-order-received.html">Order Received</a>
+															</li>
+
+														</ul>
+													</li>
+													<!-- eof shop -->
+
+													<li>
+														<a href="terms_of_use.html">Terms Of Use</a>
+													</li>
+													<!-- features -->
+													<li>
+														<a href="shortcodes_iconbox.html">Shortcodes</a>
+														<ul>
+															<li>
+																<a href="shortcodes_typography.html">Typography</a>
+															</li>
+															<li>
+																<a href="shortcodes_buttons.html">Buttons</a>
+															</li>
+															<li>
+																<a href="shortcodes_pricing.html">Pricing</a>
+															</li>
+															<li>
+																<a href="shortcodes_iconbox.html">Icon Boxes</a>
+															</li>
+															<li>
+																<a href="shortcodes_progress.html">Progress</a>
+															</li>
+															<li>
+																<a href="shortcodes_tabs.html">Tabs &amp; Collapse</a>
+															</li>
+															<li>
+																<a href="shortcodes_bootstrap.html">Bootstrap Elements</a>
+															</li>
+															<li>
+																<a href="shortcodes_animation.html">Animation</a>
+															</li>
+															<li>
+																<a href="shortcodes_icons.html">Template Icons</a>
+															</li>
+															<li>
+																<a href="shortcodes_socialicons.html">Social Icons</a>
+															</li>
+														</ul>
+													</li>
+													<!-- eof shortcodes -->
+
+													<li>
+														<a href="shortcodes_widgets_default.html">Widgets</a>
+														<ul>
+															<li>
+																<a href="shortcodes_widgets_default.html">Default Widgets</a>
+															</li>
+															<li>
+																<a href="shortcodes_widgets_shop.html">Shop Widgets</a>
+															</li>
+															<li>
+																<a href="shortcodes_widgets_custom.html">Custom Widgets</a>
+															</li>
+														</ul>
+
+													</li>
+
+
+													<li>
+														<a href="comingsoon.html">Comingsoon</a>
+													</li>
+													<li>
+														<a href="404.html">404</a>
+													</li>
+												</ul>
+											</li>
+											<!-- eof pages -->
+
+											<li>
+												<a href="internet.html">internet</a>
+											</li>
+
+											<li>
+												<a href="iptv.html">iptv</a>
+											</li>
+
+											<li>
+												<a href="voip.html">voip</a>
+											</li>
+
+											<!-- blog -->
+											<li>
+												<a href="blog-right.html">Blog</a>
+												<ul>
+
+													<li>
+														<a href="blog-right.html">Right Sidebar</a>
+													</li>
+													<li>
+														<a href="blog-left.html">Left Sidebar</a>
+													</li>
+													<li>
+														<a href="blog-full.html">No Sidebar</a>
+													</li>
+													<li>
+														<a href="blog-grid.html">Blog Grid</a>
+													</li>
+
+													<li>
+														<a href="blog-single-right.html">Post</a>
+														<ul>
+															<li>
+																<a href="blog-single-right.html">Right Sidebar</a>
+															</li>
+															<li>
+																<a href="blog-single-left.html">Left Sidebar</a>
+															</li>
+															<li>
+																<a href="blog-single-full.html">No Sidebar</a>
+															</li>
+														</ul>
+													</li>
+
+													<li>
+														<a href="blog-single-video-right.html">Video Post</a>
+														<ul>
+															<li>
+																<a href="blog-single-video-right.html">Right Sidebar</a>
+															</li>
+															<li>
+																<a href="blog-single-video-left.html">Left Sidebar</a>
+															</li>
+															<li>
+																<a href="blog-single-video-full.html">No Sidebar</a>
+															</li>
+														</ul>
+													</li>
+
+												</ul>
+											</li>
+											<!-- eof blog -->
+
+											<!-- contacts -->
+											<li>
+												<a href="contact.html">Contact</a>
+												<ul>
+													<li>
+														<a href="contact.html">Contact 1</a>
+													</li>
+													<li>
+														<a href="contact2.html">Contact 2</a>
+													</li>
+													<li>
+														<a href="contact3.html">Contact 3</a>
+													</li>
+													<li>
+														<a href="contact4.html">Contact 4</a>
+													</li>
+													<li>
+														<a href="contact5.html">Contact 5</a>
+													</li>
+												</ul>
+											</li>
+											<!-- eof contacts -->
+											<li>
+												<a href="#">Features</a>
+												<div class="mega-menu">
+													<ul class="mega-menu-row">
+														<li class="mega-menu-col">
+															<a href="#">Headers</a>
+															<ul>
+																<li>
+																	<a href="header1.html">Header Type 1</a>
+																</li>
+																<li>
+																	<a href="header2.html">Header Type 2</a>
+																</li>
+																<li>
+																	<a href="header3.html">Header Type 3</a>
+																</li>
+																<li>
+																	<a href="header4.html">Header Type 4</a>
+																</li>
+																<li>
+																	<a href="header5.html">Header Type 5</a>
+																</li>
+																<li>
+																	<a href="header6.html">Header Type 6</a>
+																</li>
+															</ul>
+														</li>
+														<li class="mega-menu-col">
+															<a href="#">Side Menus</a>
+															<ul>
+																<li>
+																	<a href="header-side.html">Push Left</a>
+																</li>
+																<li>
+																	<a href="header-side-right.html">Push Right</a>
+																</li>
+																<li>
+																	<a href="header-side-slide.html">Slide Left</a>
+																</li>
+																<li>
+																	<a href="header-side-slide-right.html">Slide Right</a>
+																</li>
+															</ul>
+														</li>
+														<li class="mega-menu-col">
+															<a href="title1.html">Title Sections</a>
+															<ul>
+																<li>
+																	<a href="title1.html">Title section 1</a>
+																</li>
+																<li>
+																	<a href="title2.html">Title section 2</a>
+																</li>
+																<li>
+																	<a href="title3.html">Title section 3</a>
+																</li>
+																<li>
+																	<a href="title4.html">Title section 4</a>
+																</li>
+																<li>
+																	<a href="title5.html">Title section 5</a>
+																</li>
+																<li>
+																	<a href="title6.html">Title section 6</a>
+																</li>
+															</ul>
+														</li>
+														<li class="mega-menu-col">
+															<a href="footer1.html#footer">Footers</a>
+															<ul>
+																<li>
+																	<a href="footer1.html#footer">Footer Type 1</a>
+																</li>
+																<li>
+																	<a href="footer2.html#footer">Footer Type 2</a>
+																</li>
+																<li>
+																	<a href="footer3.html#footer">Footer Type 3</a>
+																</li>
+																<li>
+																	<a href="footer4.html#footer">Footer Type 4</a>
+																</li>
+																<li>
+																	<a href="footer5.html#footer">Footer Type 5</a>
+																</li>
+																<li>
+																	<a href="footer6.html#footer">Footer Type 6</a>
+																</li>
+															</ul>
+														</li>
+														<li class="mega-menu-col">
+															<a href="copyright1.html#copyright">Copyright</a>
+
+															<ul>
+																<li>
+																	<a href="copyright1.html#copyright">Copyright 1</a>
+																</li>
+																<li>
+																	<a href="copyright2.html#copyright">Copyright 2</a>
+																</li>
+																<li>
+																	<a href="copyright3.html#copyright">Copyright 3</a>
+																</li>
+																<li>
+																	<a href="copyright4.html#copyright">Copyright 4</a>
+																</li>
+																<li>
+																	<a href="copyright5.html#copyright">Copyright 5</a>
+																</li>
+																<li>
+																	<a href="copyright6.html#copyright">Copyright 6</a>
+																</li>
+															</ul>
+														</li>
+
+													</ul>
+												</div> <!-- eof mega menu -->
+											</li>
+											<!-- eof features -->
+
+										</ul>
+
+
+									</nav>
+									<!-- eof main nav -->
+
+									<!--hidding includes on small devices. They are duplicated in topline-->
+									<ul class="top-includes d-none d-xl-block search-icon">
+
+										<li>
+											<!--modal search-->
+											<span>
+												<a href="#" class="search_modal_button">
+													<i class="fa fa-search"></i>
+												</a>
+											</span>
+
+										</li>
+
+									</ul>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- header toggler -->
+					<span class="toggle_menu"><span></span></span>
+				</header>
+
+				<div class="page_header_wrapper main-header-side">
+					<div class="page_header_side header_slide header_side_right ls">
+						<span class="toggle_menu toggle_menu_side header-slide"><span></span></span>
+						<div class="scrollbar-macosx">
+							<div class="side_header_inner">
+								<div class="header-side-menu">
+									<!-- main side nav start -->
+									<nav class="mainmenu_side_wrapper">
+										<ul class="nav menu-click">
+											<li>
+												<a href="faq.html">
+													<i class="color-main7 fa fa-question-circle"></i>
+													FAQ
+												</a>
+											</li>
+											<li>
+												<a href="booking-form.html">
+													<i class="color-main7 fa fa-paper-plane"></i>
+													Submit a ticket
+												</a>
+											</li>
+											<li>
+												<a href="terms_of_use.html">
+													<i class="color-main7 fa fa-rocket"></i>
+													Terms Of Use
+												</a>
+											</li>
+											<li>
+												<a href="availability-map.html">
+													<i class="color-main7 fa fa-file-text-o"></i>
+													Terms of Service
+												</a>
+											</li>
+											<li>
+												<a href="contact.html">
+													<i class="color-main7 fa fa-phone"></i>
+													call me back
+												</a>
+											</li>
+										</ul>
+									</nav>
+									<!-- eof main side nav -->
+
+
+								</div>
+							</div>
+						</div>
+						<div class="facebook-messeger d-flex align-items-center hero-bg">
+							<img src="images\messeger.png" alt="">
+							<a href="https://messenger.com" class="small-text">
+								facebook messeger
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+				<section class="page_title cs s-pt-60 s-pb-10 s-pt-lg-130 s-pb-lg-60 page_title text-center">
+					<div class="container-fluid">
+						<div class="row">
+
+							<div class="divider-60"></div>
+
+							<div class="col-md-12 text-center">
+								<h1>Shop - Edit Address</h1>
+							</div>
+
+							<div class="divider-50"></div>
+
+						</div>
+
+					</div>
+					<ol class="breadcrumb full-width">
+						<li class="breadcrumb-item">
+							<a href="shop-account-address-edit.html">Home</a>
+						</li>
+						<li class="breadcrumb-item">
+							<a href="#">Shop</a>
+						</li>
+						<li class="breadcrumb-item active">
+							Shop - Edit Address
+						</li>
+					</ol>
+				</section>
+			</div>
+
+
+			<section class="ls s-pt-80 s-pb-70 s-py-lg-120 s-py-xl-160">
+				<div class="container">
+					<div class="row">
+						<main class="col-lg-12">
+							<article>
+								<header class="entry-header mb-30">
+									<h1 class="entry-title">Addresses</h1>
+									<span class="edit-link">
+										<a class="post-edit-link" href="#">
+											Edit
+											<span class="screen-reader-text">"My account"</span>
+										</a>
+									</span>
+								</header>
+								<!-- .entry-header -->
+								<div class="entry-content">
+									<div class="woocommerce">
+										<nav class="woocommerce-MyAccount-navigation hero-bg p-60">
+											<ul>
+												<li>
+													<a href="shop-account-dashboard.html">Dashboard</a>
+												</li>
+												<li>
+													<a href="shop-account-orders.html">Orders</a>
+												</li>
+												<li>
+													<a href="shop-account-downloads.html">Downloads</a>
+												</li>
+												<li class="is-active">
+													<a href="shop-account-addresses.html">Addresses</a>
+												</li>
+												<li>
+													<a href="shop-account-details.html">Account details</a>
+												</li>
+												<li>
+													<a href="shop-account-login.html">Logout</a>
+												</li>
+											</ul>
+										</nav>
+
+
+										<div class="woocommerce-MyAccount-content">
+											<form>
+												<h6>Shipping address</h6>
+												<div class="woocommerce-address-fields">
+													<div class="woocommerce-address-fields__field-wrapper">
+														<p class="form-row form-row-first validate-required" id="shipping_first_name_field" data-priority="10">
+															<label for="shipping_first_name" class="">First name
+																<abbr class="required" title="required">*</abbr>
+															</label>
+															<input type="text" class="input-text form-control" name="shipping_first_name" id="shipping_first_name" placeholder="First name" value="" autocomplete="given-name" autofocus="autofocus">
+														</p>
+														<p class="form-row form-row-last validate-required" id="shipping_last_name_field" data-priority="20">
+															<label for="shipping_last_name" class="">Last name
+																<abbr class="required" title="required">*</abbr>
+															</label>
+															<input type="text" class="input-text form-control" name="shipping_last_name" id="shipping_last_name" placeholder="Last name" value="" autocomplete="family-name">
+														</p>
+														<p class="form-row form-row-wide" id="shipping_company_field" data-priority="30">
+															<label for="shipping_company" class="">Company name</label>
+															<input type="text" class="input-text form-control" name="shipping_company" id="shipping_company" placeholder="Company name" value="" autocomplete="organization">
+														</p>
+														<p class="form-row form-row-wide address-field update_totals_on_change validate-required" id="shipping_country_field" data-priority="40">
+															<label for="shipping_country" class="">Country
+																<abbr class="required" title="required">*</abbr>
+															</label>
+															<select name="shipping_country" id="shipping_country" class="country_to_state country_select  select2-hidden-accessible" autocomplete="country" tabindex="-1" aria-hidden="true">
+																<option value="">Select a country...</option>
+																<option value="AX">Åland Islands</option>
+																<option value="AF">Afghanistan</option>
+																<option value="AL">Albania</option>
+																<option value="DZ">Algeria</option>
+																<option value="AS">American Samoa</option>
+																<option value="AD">Andorra</option>
+																<option value="AO">Angola</option>
+																<option value="AI">Anguilla</option>
+																<option value="AQ">Antarctica</option>
+																<option value="AG">Antigua and Barbuda</option>
+																<option value="AR">Argentina</option>
+																<option value="AM">Armenia</option>
+																<option value="AW">Aruba</option>
+																<option value="AU">Australia</option>
+																<option value="AT">Austria</option>
+																<option value="AZ">Azerbaijan</option>
+																<option value="BS">Bahamas</option>
+																<option value="BH">Bahrain</option>
+																<option value="BD">Bangladesh</option>
+																<option value="BB">Barbados</option>
+																<option value="BY">Belarus</option>
+																<option value="PW">Belau</option>
+																<option value="BE">Belgium</option>
+																<option value="BZ">Belize</option>
+																<option value="BJ">Benin</option>
+																<option value="BM">Bermuda</option>
+																<option value="BT">Bhutan</option>
+																<option value="BO">Bolivia</option>
+																<option value="BQ">Bonaire, Saint Eustatius and Saba</option>
+																<option value="BA">Bosnia and Herzegovina</option>
+																<option value="BW">Botswana</option>
+																<option value="BV">Bouvet Island</option>
+																<option value="BR">Brazil</option>
+																<option value="IO">British Indian Ocean Territory</option>
+																<option value="VG">British Virgin Islands</option>
+																<option value="BN">Brunei</option>
+																<option value="BG">Bulgaria</option>
+																<option value="BF">Burkina Faso</option>
+																<option value="BI">Burundi</option>
+																<option value="KH">Cambodia</option>
+																<option value="CM">Cameroon</option>
+																<option value="CA">Canada</option>
+																<option value="CV">Cape Verde</option>
+																<option value="KY">Cayman Islands</option>
+																<option value="CF">Central African Republic</option>
+																<option value="TD">Chad</option>
+																<option value="CL">Chile</option>
+																<option value="CN">China</option>
+																<option value="CX">Christmas Island</option>
+																<option value="CC">Cocos (Keeling) Islands</option>
+																<option value="CO">Colombia</option>
+																<option value="KM">Comoros</option>
+																<option value="CG">Congo (Brazzaville)</option>
+																<option value="CD">Congo (Kinshasa)</option>
+																<option value="CK">Cook Islands</option>
+																<option value="CR">Costa Rica</option>
+																<option value="HR">Croatia</option>
+																<option value="CU">Cuba</option>
+																<option value="CW">Curaçao</option>
+																<option value="CY">Cyprus</option>
+																<option value="CZ">Czech Republic</option>
+																<option value="DK">Denmark</option>
+																<option value="DJ">Djibouti</option>
+																<option value="DM">Dominica</option>
+																<option value="DO">Dominican Republic</option>
+																<option value="EC">Ecuador</option>
+																<option value="EG">Egypt</option>
+																<option value="SV">El Salvador</option>
+																<option value="GQ">Equatorial Guinea</option>
+																<option value="ER">Eritrea</option>
+																<option value="EE">Estonia</option>
+																<option value="ET">Ethiopia</option>
+																<option value="FK">Falkland Islands</option>
+																<option value="FO">Faroe Islands</option>
+																<option value="FJ">Fiji</option>
+																<option value="FI">Finland</option>
+																<option value="FR">France</option>
+																<option value="GF">French Guiana</option>
+																<option value="PF">French Polynesia</option>
+																<option value="TF">French Southern Territories</option>
+																<option value="GA">Gabon</option>
+																<option value="GM">Gambia</option>
+																<option value="GE">Georgia</option>
+																<option value="DE">Germany</option>
+																<option value="GH">Ghana</option>
+																<option value="GI">Gibraltar</option>
+																<option value="GR">Greece</option>
+																<option value="GL">Greenland</option>
+																<option value="GD">Grenada</option>
+																<option value="GP">Guadeloupe</option>
+																<option value="GU">Guam</option>
+																<option value="GT">Guatemala</option>
+																<option value="GG">Guernsey</option>
+																<option value="GN">Guinea</option>
+																<option value="GW">Guinea-Bissau</option>
+																<option value="GY">Guyana</option>
+																<option value="HT">Haiti</option>
+																<option value="HM">Heard Island and McDonald Islands</option>
+																<option value="HN">Honduras</option>
+																<option value="HK">Hong Kong</option>
+																<option value="HU">Hungary</option>
+																<option value="IS">Iceland</option>
+																<option value="IN">India</option>
+																<option value="ID">Indonesia</option>
+																<option value="IR">Iran</option>
+																<option value="IQ">Iraq</option>
+																<option value="IE">Ireland</option>
+																<option value="IM">Isle of Man</option>
+																<option value="IL">Israel</option>
+																<option value="IT">Italy</option>
+																<option value="CI">Ivory Coast</option>
+																<option value="JM">Jamaica</option>
+																<option value="JP">Japan</option>
+																<option value="JE">Jersey</option>
+																<option value="JO">Jordan</option>
+																<option value="KZ">Kazakhstan</option>
+																<option value="KE">Kenya</option>
+																<option value="KI">Kiribati</option>
+																<option value="KW">Kuwait</option>
+																<option value="KG">Kyrgyzstan</option>
+																<option value="LA">Laos</option>
+																<option value="LV">Latvia</option>
+																<option value="LB">Lebanon</option>
+																<option value="LS">Lesotho</option>
+																<option value="LR">Liberia</option>
+																<option value="LY">Libya</option>
+																<option value="LI">Liechtenstein</option>
+																<option value="LT">Lithuania</option>
+																<option value="LU">Luxembourg</option>
+																<option value="MO">Macao S.A.R., China</option>
+																<option value="MK">Macedonia</option>
+																<option value="MG">Madagascar</option>
+																<option value="MW">Malawi</option>
+																<option value="MY">Malaysia</option>
+																<option value="MV">Maldives</option>
+																<option value="ML">Mali</option>
+																<option value="MT">Malta</option>
+																<option value="MH">Marshall Islands</option>
+																<option value="MQ">Martinique</option>
+																<option value="MR">Mauritania</option>
+																<option value="MU">Mauritius</option>
+																<option value="YT">Mayotte</option>
+																<option value="MX">Mexico</option>
+																<option value="FM">Micronesia</option>
+																<option value="MD">Moldova</option>
+																<option value="MC">Monaco</option>
+																<option value="MN">Mongolia</option>
+																<option value="ME">Montenegro</option>
+																<option value="MS">Montserrat</option>
+																<option value="MA">Morocco</option>
+																<option value="MZ">Mozambique</option>
+																<option value="MM">Myanmar</option>
+																<option value="NA">Namibia</option>
+																<option value="NR">Nauru</option>
+																<option value="NP">Nepal</option>
+																<option value="NL">Netherlands</option>
+																<option value="NC">New Caledonia</option>
+																<option value="NZ">New Zealand</option>
+																<option value="NI">Nicaragua</option>
+																<option value="NE">Niger</option>
+																<option value="NG">Nigeria</option>
+																<option value="NU">Niue</option>
+																<option value="NF">Norfolk Island</option>
+																<option value="KP">North Korea</option>
+																<option value="MP">Northern Mariana Islands</option>
+																<option value="NO">Norway</option>
+																<option value="OM">Oman</option>
+																<option value="PK">Pakistan</option>
+																<option value="PS">Palestinian Territory</option>
+																<option value="PA">Panama</option>
+																<option value="PG">Papua New Guinea</option>
+																<option value="PY">Paraguay</option>
+																<option value="PE">Peru</option>
+																<option value="PH">Philippines</option>
+																<option value="PN">Pitcairn</option>
+																<option value="PL">Poland</option>
+																<option value="PT">Portugal</option>
+																<option value="PR">Puerto Rico</option>
+																<option value="QA">Qatar</option>
+																<option value="RE">Reunion</option>
+																<option value="RO">Romania</option>
+																<option value="RU">Russia</option>
+																<option value="RW">Rwanda</option>
+																<option value="ST">São Tomé and Príncipe</option>
+																<option value="BL">Saint Barthélemy</option>
+																<option value="SH">Saint Helena</option>
+																<option value="KN">Saint Kitts and Nevis</option>
+																<option value="LC">Saint Lucia</option>
+																<option value="SX">Saint Martin (Dutch part)</option>
+																<option value="MF">Saint Martin (French part)</option>
+																<option value="PM">Saint Pierre and Miquelon</option>
+																<option value="VC">Saint Vincent and the Grenadines</option>
+																<option value="WS">Samoa</option>
+																<option value="SM">San Marino</option>
+																<option value="SA">Saudi Arabia</option>
+																<option value="SN">Senegal</option>
+																<option value="RS">Serbia</option>
+																<option value="SC">Seychelles</option>
+																<option value="SL">Sierra Leone</option>
+																<option value="SG">Singapore</option>
+																<option value="SK">Slovakia</option>
+																<option value="SI">Slovenia</option>
+																<option value="SB">Solomon Islands</option>
+																<option value="SO">Somalia</option>
+																<option value="ZA">South Africa</option>
+																<option value="GS">South Georgia/Sandwich Islands</option>
+																<option value="KR">South Korea</option>
+																<option value="SS">South Sudan</option>
+																<option value="ES">Spain</option>
+																<option value="LK">Sri Lanka</option>
+																<option value="SD">Sudan</option>
+																<option value="SR">Suriname</option>
+																<option value="SJ">Svalbard and Jan Mayen</option>
+																<option value="SZ">Swaziland</option>
+																<option value="SE">Sweden</option>
+																<option value="CH">Switzerland</option>
+																<option value="SY">Syria</option>
+																<option value="TW">Taiwan</option>
+																<option value="TJ">Tajikistan</option>
+																<option value="TZ">Tanzania</option>
+																<option value="TH">Thailand</option>
+																<option value="TL">Timor-Leste</option>
+																<option value="TG">Togo</option>
+																<option value="TK">Tokelau</option>
+																<option value="TO">Tonga</option>
+																<option value="TT">Trinidad and Tobago</option>
+																<option value="TN">Tunisia</option>
+																<option value="TR">Turkey</option>
+																<option value="TM">Turkmenistan</option>
+																<option value="TC">Turks and Caicos Islands</option>
+																<option value="TV">Tuvalu</option>
+																<option value="UG">Uganda</option>
+																<option value="UA">Ukraine</option>
+																<option value="AE">United Arab Emirates</option>
+																<option value="GB" selected="selected">United Kingdom (UK)</option>
+																<option value="US">United States (US)</option>
+																<option value="UM">United States (US) Minor Outlying Islands</option>
+																<option value="VI">United States (US) Virgin Islands</option>
+																<option value="UY">Uruguay</option>
+																<option value="UZ">Uzbekistan</option>
+																<option value="VU">Vanuatu</option>
+																<option value="VA">Vatican</option>
+																<option value="VE">Venezuela</option>
+																<option value="VN">Vietnam</option>
+																<option value="WF">Wallis and Futuna</option>
+																<option value="EH">Western Sahara</option>
+																<option value="YE">Yemen</option>
+																<option value="ZM">Zambia</option>
+																<option value="ZW">Zimbabwe</option>
+															</select>
+
+														</p>
+														<p class="form-row form-row-wide address-field validate-required" id="shipping_address_1_field" data-priority="50">
+															<label for="shipping_address_1" class="">Street address
+																<abbr class="required" title="required">*</abbr>
+															</label>
+															<input type="text" class="input-text form-control" name="shipping_address_1" id="shipping_address_1" placeholder="House number and street name" value="" autocomplete="address-line1">
+														</p>
+														<p class="form-row form-row-wide address-field" id="shipping_address_2_field" data-priority="60">
+															<input type="text" class="input-text form-control" name="shipping_address_2" id="shipping_address_2" placeholder="Apartment, suite, unit etc. (optional)" value="" autocomplete="address-line2">
+														</p>
+														<p class="form-row form-row-wide address-field validate-required" id="shipping_city_field" data-priority="70" data-o_class="form-row form-row-wide address-field validate-required">
+															<label for="shipping_city" class="">Town / City
+																<abbr class="required" title="required">*</abbr>
+															</label>
+															<input type="text" class="input-text form-control" name="shipping_city" id="shipping_city" placeholder="Town / City" value="" autocomplete="address-level2">
+														</p>
+														<p class="form-row form-row-wide address-field validate-state validate-required" id="shipping_state_field" data-priority="80" data-o_class="form-row form-row-wide address-field validate-required validate-state">
+															<label for="shipping_state" class="">State / County
+																<abbr class="required" title="required">*</abbr>
+															</label>
+															<input type="text" class="input-text form-control" value="" placeholder="State / County" name="shipping_state" id="shipping_state" autocomplete="address-level1">
+														</p>
+														<p class="form-row form-row-wide address-field validate-postcode validate-required" id="shipping_postcode_field" data-priority="90" data-o_class="form-row form-row-wide address-field validate-required validate-postcode">
+															<label for="shipping_postcode" class="">Postcode / ZIP
+																<abbr class="required" title="required">*</abbr>
+															</label>
+															<input type="text" class="input-text form-control" name="shipping_postcode" id="shipping_postcode" placeholder="Postcode / ZIP" value="" autocomplete="postal-code">
+														</p>
+													</div>
+
+													<div class="divider-60 d-none d-lg-block"></div>
+													<p>
+														<button type="submit" class="woocommerce-Button btn btn-maincolor" name="save_address"><span>Save address</span></button>
+													</p>
+												</div>
+
+											</form>
+
+
+										</div>
+									</div>
+								</div>
+								<!-- .entry-content -->
+							</article>
+
+						</main>
+					</div>
+				</div>
+			</section>
+
+			<section class="footer-carousel c-gutter-0 container-px-0 s-py-0">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<div class="owl-carousel small-gallery-carousel" data-margin="0" data-responsive-lg="8" data-responsive-md="4" data-responsive-sm="3" data-responsive-xs="2" data-nav="true" data-loop="true">
+
+								<a href="images\square\03.jpg" class="photoswipe-link" data-width="800" data-height="800">
+									<img src="images\square\03.jpg" alt="">
+								</a>
+								<a href="images\square\04.jpg" class="photoswipe-link" data-width="800" data-height="800">
+									<img src="images\square\04.jpg" alt="">
+								</a>
+								<a href="images\square\05.jpg" class="photoswipe-link" data-width="800" data-height="800">
+									<img src="images\square\05.jpg" alt="">
+								</a>
+								<a href="images\square\06.jpg" class="photoswipe-link" data-width="800" data-height="800">
+									<img src="images\square\06.jpg" alt="">
+								</a>
+								<a href="images\square\07.jpg" class="photoswipe-link" data-width="800" data-height="800">
+									<img src="images\square\07.jpg" alt="">
+								</a>
+								<a href="images\square\08.jpg" class="photoswipe-link" data-width="800" data-height="800">
+									<img src="images\square\08.jpg" alt="">
+								</a>
+								<a href="images\square\09.jpg" class="photoswipe-link" data-width="800" data-height="800">
+									<img src="images\square\09.jpg" alt="">
+								</a>
+								<a href="images\square\10.jpg" class="photoswipe-link" data-width="800" data-height="800">
+									<img src="images\square\10.jpg" alt="">
+								</a>
+								<a href="images\square\01.jpg" class="photoswipe-link" data-width="800" data-height="800">
+									<img src="images\square\01.jpg" alt="">
+								</a>
+								<a href="images\square\02.jpg" class="photoswipe-link" data-width="800" data-height="800">
+									<img src="images\square\02.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer class="page_footer ls ms s-pt-80 s-pb-70 s-py-lg-120 s-pt-xl-135 s-pb-xl-105 c-gutter-60 text-center text-md-left">
+				<div class="container">
+					<div class="row">
+						<div class="divider-20 d-none d-xl-block"></div>
+
+						<div class="col-md-6 col-xl-3 order-xl-1 order-md-1 animate" data-animation="fadeInUp">
+
+							<div class="widget widget_text">
+								<h4 class="widget-title">About</h4>
+								<p>
+									Welcome largest broadband and Internet services provider where you can choose the best plan ever.
+								</p>
+								<div class="widget widget_social_buttons">
+									<a href="#" class="fa fa-facebook color-bg-icon rounded-icon" title="facebook"></a>
+									<a href="#" class="fa fa-twitter color-bg-icon rounded-icon" title="twitter"></a>
+									<a href="#" class="fa fa-youtube-play color-bg-icon rounded-icon" title="youtube-play"></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-3 order-xl-2 order-md-4 animate" data-animation="fadeInUp">
+							<div class="widget links">
+								<h4 class="widget-title">Links</h4>
+								<ul>
+									<li class="cat-item">
+										<a href="blog-right.html">Packages</a>
+									</li>
+									<li class="cat-item">
+										<a href="blog-right.html">MaxiNet Media</a>
+									</li>
+									<li class="cat-item">
+										<a href="blog-right.html">Connection</a>
+									</li>
+									<li class="cat-item">
+										<a href="blog-right.html">Support</a>
+									</li>
+									<li class="cat-item">
+										<a href="blog-right.html">Video Tutorials</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-3 order-xl-3 order-md-3 animate" data-animation="fadeInUp">
+							<div class="widget services-links">
+								<h4 class="widget-title">Services</h4>
+								<ul>
+									<li class="cat-item">
+										<a href="blog-right.html">4K Cable TV</a>
+									</li>
+									<li class="cat-item">
+										<a href="blog-right.html">Dedicated Server</a>
+									</li>
+									<li class="cat-item">
+										<a href="blog-right.html">High Speed Internet</a>
+									</li>
+									<li class="cat-item">
+										<a href="blog-right.html">Smartphone Service</a>
+									</li>
+									<li class="cat-item">
+										<a href="blog-right.html">Dedicated Server</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-3 order-xl-4 order-md-2 animate" data-animation="fadeInUp">
+							<div class="widget widget_icons_list">
+								<h4 class="widget-title">Call Us</h4>
+								<p>23-456-7890</p>
+								<a href="#" class="small-text">
+									<i class="fa fa-envelope-o color-main fs-14"></i>
+									email us
+								</a>
+								<h4 class="widget-title">Visit Us</h4>
+								<p>246 Benson St., Ashwaubenon</p>
+								<a href="#" class="small-text">
+									<i class="fa fa-map-marker color-main3 fs-14"></i>
+									Get Direction
+								</a>
+							</div>
+							<div class="divider-45 d-none d-md-block d-xlz-none"></div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<section class="page_copyright ds s-py-10 copyright-bg">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="divider-15 d-none d-lg-block"></div>
+						<div class="col-md-12 text-center">
+							<p>&copy; Copyright <span class="copyright_year">2019</span> All Rights Reserved</p>
+						</div>
+						<div class="divider-15 d-none d-lg-block"></div>
+					</div>
+				</div>
+			</section>
+
+
+		</div><!-- eof #box_wrapper -->
+	</div><!-- eof #canvas -->
+
+
+	<script src="js\compressed.js"></script>
+	<script src="js\main.js"></script>
+	<script src="js\switcher.js"></script>
+
+</body>
+
+</html>
