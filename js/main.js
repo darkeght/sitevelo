@@ -716,6 +716,11 @@ function documentReadyInit() {
 		});
 	});
 
+	//toTop
+	if ($().UItoTop) {
+		$().UItoTop({ easingType: 'easeInOutQuart' });
+	}
+
 	//parallax
 	if ($().parallax) {
 		$('.s-parallax').parallax("50%", 0.01);
