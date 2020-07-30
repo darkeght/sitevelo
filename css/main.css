@@ -218,12 +218,14 @@ h6:last-child {
 }
 
 p {
+	text-align: justify;
 	margin-bottom: 10px;
 }
 
 ul:last-child,
 ol:last-child,
 p:last-child {
+	text-align: justify;
 	margin-bottom: 0;
 }
 
@@ -384,6 +386,7 @@ pre {
 }
 
 .big {
+	text-align: justify;
 	font-size: 20px;
 	line-height: 1.5em;
 	margin: 7px 0 23px;
@@ -3277,58 +3280,7 @@ a.pswp__share--download:hover {
 /* 
 ** toTop
 */
-#toTop {
-	background-color: #00c020;
-	border-radius: 50%;
-	bottom: 10px;
-	color: transparent;
-	display: none;
-	font-size: 0;
-	height: 60px;
-	opacity: 0.7;
-	overflow: hidden;
-	position: fixed;
-	right: 10px;
-	text-decoration: none;
-	width: 60px;
-	z-index: 1000;
-}
 
-#toTop:after {
-	bottom: 0;
-	color: #fff;
-	content: "\f106";
-	display: block;
-	font-family: "FontAwesome";
-	font-size: 16px;
-	left: 0;
-	line-height: 60px;
-	position: absolute;
-	right: 0;
-	text-align: center;
-	top: 0;
-	-webkit-transition: all 0.2s linear;
-	transition: all 0.2s linear;
-}
-
-#toTopHover,
-#toTop:hover {
-	bottom: 3px;
-	opacity: 1;
-}
-
-#toTop:hover:after {
-	color: #ffffff;
-}
-
-#toTop:active,
-#toTop:focus {
-	outline: medium none;
-}
-
-.modal-open #toTop {
-	visibility: hidden;
-}
 
 /* Countdown */
 #comingsoon-countdown {
@@ -15093,7 +15045,17 @@ a img.aligncenter {
 	left: 100%;
 	z-index: 1051;
 }
-
+.brand-main {
+    margin-top: 45px;
+}
+.brand-item {
+    text-align: center;
+}
+.brand-item img {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+    display: inline-block;
+}
 .header_absolute .page_topline,
 .header_absolute .page_toplogo,
 .header_absolute .page_header_wrapper,
@@ -15332,7 +15294,7 @@ a.logo {
 a.logo img {
 	display: inline-block;
 	max-height: 80px;
-	margin-bottom: 25px;
+	
 }
 
 a.logo .logo-text {
