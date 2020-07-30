@@ -17752,6 +17752,7 @@ img.absolute_image {
 .page_footer h4.widget-title {
 	letter-spacing: 7px;
 	line-height: 1;
+	margin-top: 15px;
 	margin-bottom: 26px !important;
 	text-transform: uppercase;
 }
@@ -17813,7 +17814,7 @@ body {
 	}
   }
 .page_footer .widget_icons_list h4:first-child {
-	margin-top: -50px;
+	margin-top: 15px;
 }
 
 .page_footer .widget_icons_list i {
@@ -19110,6 +19111,7 @@ a.read-more.service-btn:hover {
 .blog-carousel .post .entry-header {
 	display: block;
 	margin-bottom: 0;
+	margin-top: 40px;
 }
 
 .blog-carousel .post .entry-meta span {
