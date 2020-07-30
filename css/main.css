@@ -1303,6 +1303,7 @@ form .has-placeholder.textarea label + [class*="fa-"] {
 .btn span {
 	-webkit-align-items: center;
 	align-items: center;
+	margin-top: -50px;
 	border-radius: 4px;
 	-webkit-box-align: center;
 	-webkit-box-pack: center;
@@ -2056,7 +2057,7 @@ Owl Default Theme
 
 @media (max-width: 767px) {
 	.flexslider .slides img {
-		height: 400px;
+		height: auto;
 	}
 }
 
@@ -2065,6 +2066,16 @@ Owl Default Theme
 		height: auto;
 	}
 }
+
+@media (max-width: 747px) {
+	.hide-image-mobile {
+		display: none;
+	}
+	.show-image-mobile{
+		display: block !important;
+	}
+}
+
 
 .flex-pauseplay span {
 	text-transform: capitalize;
@@ -8275,6 +8286,7 @@ body.boxed {
 .ls h5,
 .ls h6 {
 	color: #4c4c4c;
+	margin-top: -50px;
 }
 
 /*
@@ -10735,6 +10747,7 @@ h5.special-heading {
 	font-style: italic;
 	font-weight: 300;
 	line-height: 30px;
+	text-align: left;
 }
 
 @media (min-width: 992px) {
@@ -15052,7 +15065,7 @@ a img.aligncenter {
     text-align: center;
 }
 .brand-item img {
-    -webkit-filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(0);
     filter: brightness(0) invert(1);
     display: inline-block;
 }
@@ -17788,9 +17801,19 @@ img.absolute_image {
 		margin-top: 21px;
 	}
 }
-
+/* For width smaller than 400px: */
+body {
+	background-image: url('images\cara-sentado.jpeg');
+  }
+  
+  /* For width 400px and larger: */
+  @media screen and (max-width: 425px) {
+	body {
+	  background-image: url('images\images\menina.png');
+	}
+  }
 .page_footer .widget_icons_list h4:first-child {
-	margin-top: 0;
+	margin-top: -50px;
 }
 
 .page_footer .widget_icons_list i {
@@ -18253,7 +18276,7 @@ a.link-main2:hover {
 
 @media (max-width: 991px) {
 	.about-section .side-image img {
-		margin: 40px 0 0;
+		margin: -10px 0 0;
 		max-width: 100%;
 	}
 }
