@@ -218,14 +218,12 @@ h6:last-child {
 }
 
 p {
-	text-align: justify;
 	margin-bottom: 10px;
 }
 
 ul:last-child,
 ol:last-child,
 p:last-child {
-	text-align: justify;
 	margin-bottom: 0;
 }
 
@@ -386,7 +384,6 @@ pre {
 }
 
 .big {
-	text-align: justify;
 	font-size: 20px;
 	line-height: 1.5em;
 	margin: 7px 0 23px;
@@ -1303,7 +1300,6 @@ form .has-placeholder.textarea label + [class*="fa-"] {
 .btn span {
 	-webkit-align-items: center;
 	align-items: center;
-	margin-top: -50px;
 	border-radius: 4px;
 	-webkit-box-align: center;
 	-webkit-box-pack: center;
@@ -2057,7 +2053,7 @@ Owl Default Theme
 
 @media (max-width: 767px) {
 	.flexslider .slides img {
-		height: auto;
+		height: 400px;
 	}
 }
 
@@ -2066,16 +2062,6 @@ Owl Default Theme
 		height: auto;
 	}
 }
-
-@media (max-width: 747px) {
-	.hide-image-mobile {
-		display: none;
-	}
-	.show-image-mobile{
-		display: block !important;
-	}
-}
-
 
 .flex-pauseplay span {
 	text-transform: capitalize;
@@ -3291,7 +3277,58 @@ a.pswp__share--download:hover {
 /* 
 ** toTop
 */
+#toTop {
+	background-color: #00c020;
+	border-radius: 50%;
+	bottom: 10px;
+	color: transparent;
+	display: none;
+	font-size: 0;
+	height: 60px;
+	opacity: 0.7;
+	overflow: hidden;
+	position: fixed;
+	right: 10px;
+	text-decoration: none;
+	width: 60px;
+	z-index: 1000;
+}
 
+#toTop:after {
+	bottom: 0;
+	color: #fff;
+	content: "\f106";
+	display: block;
+	font-family: "FontAwesome";
+	font-size: 16px;
+	left: 0;
+	line-height: 60px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+#toTopHover,
+#toTop:hover {
+	bottom: 3px;
+	opacity: 1;
+}
+
+#toTop:hover:after {
+	color: #ffffff;
+}
+
+#toTop:active,
+#toTop:focus {
+	outline: medium none;
+}
+
+.modal-open #toTop {
+	visibility: hidden;
+}
 
 /* Countdown */
 #comingsoon-countdown {
@@ -8286,7 +8323,6 @@ body.boxed {
 .ls h5,
 .ls h6 {
 	color: #4c4c4c;
-	margin-top: -50px;
 }
 
 /*
@@ -10747,7 +10783,6 @@ h5.special-heading {
 	font-style: italic;
 	font-weight: 300;
 	line-height: 30px;
-	text-align: left;
 }
 
 @media (min-width: 992px) {
@@ -15058,17 +15093,7 @@ a img.aligncenter {
 	left: 100%;
 	z-index: 1051;
 }
-.brand-main {
-    margin-top: 45px;
-}
-.brand-item {
-    text-align: center;
-}
-.brand-item img {
-    -webkit-filter: brightness(0) invert(0);
-    filter: brightness(0) invert(1);
-    display: inline-block;
-}
+
 .header_absolute .page_topline,
 .header_absolute .page_toplogo,
 .header_absolute .page_header_wrapper,
@@ -15307,7 +15332,7 @@ a.logo {
 a.logo img {
 	display: inline-block;
 	max-height: 80px;
-	
+	margin-bottom: 25px;
 }
 
 a.logo .logo-text {
@@ -17801,19 +17826,9 @@ img.absolute_image {
 		margin-top: 21px;
 	}
 }
-/* For width smaller than 400px: */
-body {
-	background-image: url('images\cara-sentado.jpeg');
-  }
-  
-  /* For width 400px and larger: */
-  @media screen and (max-width: 425px) {
-	body {
-	  background-image: url('images\images\menina.png');
-	}
-  }
+
 .page_footer .widget_icons_list h4:first-child {
-	margin-top: -50px;
+	margin-top: 0;
 }
 
 .page_footer .widget_icons_list i {
@@ -18276,7 +18291,7 @@ a.link-main2:hover {
 
 @media (max-width: 991px) {
 	.about-section .side-image img {
-		margin: -10px 0 0;
+		margin: 40px 0 0;
 		max-width: 100%;
 	}
 }
