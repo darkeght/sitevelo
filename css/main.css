@@ -3569,8 +3569,8 @@ px-* - horizontal padding value
 
 .c-gutter-20 [class*="col-"],
 .row.c-gutter-20 > [class*="col-"] {
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .c-gutter-15 [class*="col-"],
@@ -3655,8 +3655,8 @@ div.row.c-gutter-25 {
 
 .c-gutter-20 .row,
 div.row.c-gutter-20 {
-	margin-left: -10px;
-	margin-right: -10px;
+	margin-left: -40px;
+	margin-right: -40px;
 }
 
 .c-gutter-15 .row,
@@ -8519,7 +8519,8 @@ body.boxed {
 .ds h5,
 .ds h6 {
 	color: #fff;
-	margin-top: 80px;
+	margin-top: 46px;
+    line-height: 10px;
 }
 
 .ds h1 a,
