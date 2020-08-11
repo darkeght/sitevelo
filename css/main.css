@@ -1274,12 +1274,12 @@ form .has-placeholder.textarea label + [class*="fa-"] {
 	margin-bottom: 0;
 }
 .btn-light {
-	background-color: #2aaf31;
+	background-color: #0ac442;
 	border-color: rgb(62, 189, 51);
   }
   .btn-light:hover, .btn-light:focus, .btn-light.active {
 	background-color: transparent;
-	border: 2px solid rgb(62, 189, 51);
+	border: 2px solid rgb(20, 156, 27);
   }
   .show > .btn-light.dropdown-toggle {
 	outline: 0 !important;
@@ -14304,7 +14304,23 @@ a img.aligncenter {
 	.sf-menu.nav > li:last-child > a {
 		margin-right: 0;
 	}
-
+	
+	.btn-primary {
+		margin-right: 20px;
+		border: none;
+	}
+	.line-btn:hover, .line-btn:focus, .line-btn:active:focus {
+		background: #138f38;
+		color: #fff;
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+		border-color: #ffffff;
+	}
+	.line-btn {
+		background: transparent;
+		border: 2px solid #2c9e28;
+		color: #2c9e28;
+	}
 	.sf-menu > li > a {
 		line-height: 14px;
 		margin: 0 15px;
@@ -14483,8 +14499,78 @@ a img.aligncenter {
 	color: rgb(255, 255, 255);
 }
 .header_absolute.header_layout_1 .ls.affix-top .sf-menu > li > a:hover {
-	color: rgb(106, 209, 97);
+	color: rgb(47, 175, 75);
 }
+.mybtn3 {
+	padding: 5px 20px;
+	background: #fff;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: 600;
+	display: inline-block;
+	border: 1px solid transparent;
+	position: relative;
+	text-transform: uppercase;
+	z-index: 3;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.4s;
+	cursor: pointer;
+	outline: none !important;
+	overflow: hidden;
+  }
+  
+  .mybtn3 span {
+	position: relative;
+	font-weight: 400;
+	z-index: 6;
+	transition-delay: 0s;
+  }
+  
+  .mybtn3:before,
+  .mybtn3:after {
+	content: "";
+	width: 0;
+	height: 100%;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: width 0.4s;
+	z-index: 1;
+	opacity: 0.4;
+  }
+  
+  .mybtn3:after {
+	transition-delay: 0s;
+	background: #fff;
+	opacity: 1;
+  }
+  
+  .mybtn3:hover:before,
+  .mybtn3:hover:after {
+	width: 100%;
+  }
+  
+  .mybtn3:hover:after {
+	transition-delay: 0.2s;
+  }
+  
+  .mybtn3:hover span {
+	transition-delay: 0.2s;
+  }
+  .mybtn-bg {
+	background: #288d3e;
+	border-color: #288d3e;
+	color: #fff;
+  }
+  
+  .mybtn-bg span {
+	color: #fff;
+  }
+  
+  .mybtn-bg:hover span {
+	color: #288d3e;
+  }
 
 .sf-menu > li > a {
 	margin: 0 23px;
@@ -15023,6 +15109,13 @@ a img.aligncenter {
 		z-index: 1003;
 	}
 }
+.line2-btn:hover, .line2-btn:focus, .line2-btn:active:focus {
+	background: #17a71e8c;
+	color: #ffffff;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	border-color: #00d5c3;
+}
 
 .page_header.affix-bottom {
 	position: fixed;
@@ -15035,11 +15128,12 @@ a img.aligncenter {
 
 .page_header a {
 	display: inline-block;
-	color: #000000;
+	color: #000000  ;
 }
 
 .page_header .btn {
 	margin-bottom: 0;
+
 }
 
 .header_absolute {
