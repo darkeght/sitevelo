@@ -227,6 +227,7 @@ ol:last-child,
 p:last-child {
 	text-align: justify;
 	margin-bottom: 0;
+	
 }
 
 p:last-child:after {
@@ -259,6 +260,7 @@ strong {
 label {
 	color: #4c4c4c;
 }
+
 
 a {
 	color: #4c4c4c;
@@ -1298,6 +1300,7 @@ form .has-placeholder.textarea label + [class*="fa-"] {
 	height: 60px;
 	padding: 2px;
 	width: 180px;
+	
 }
 
 .btn span {
@@ -1320,6 +1323,7 @@ form .has-placeholder.textarea label + [class*="fa-"] {
 	-webkit-transition: background .5s ease;
 	transition: background .5s ease;
 	width: 100%;
+	
 }
 
 .btn.small-btn {
@@ -4043,7 +4047,7 @@ py-* - same value for top and for bottom padding
 
 .s-py-80 > [class*='container'] {
 	padding-bottom: 80px;
-	padding-top: 80px;
+	padding-top: 0px;
 }
 
 .s-py-90 > [class*='container'] {
@@ -5503,7 +5507,7 @@ py-* - same value for top and for bottom padding
 	}
 
 	.s-py-xl-160 > [class*='container'] {
-		padding-bottom: 80px;
+		padding-bottom: 60px;
 		padding-top: 80px;
 	}
 }
@@ -6957,6 +6961,7 @@ section {
 
 img {
 	max-width: 100%;
+	margin-top: 3px;
 }
 
 /*parallax*/
@@ -8287,7 +8292,7 @@ body.boxed {
 .ls h5,
 .ls h6 {
 	color: #4c4c4c;
-	margin-top: -50px;
+	margin-top: -45px;
 }
 
 /*
@@ -8519,7 +8524,7 @@ body.boxed {
 .ds h5,
 .ds h6 {
 	color: #fff;
-	margin-top: 46px;
+	margin-top: 48px;
     line-height: 10px;
 }
 
@@ -14332,7 +14337,7 @@ a img.aligncenter {
 @media (min-width: 1200px) {
 	.sf-menu > li > a:hover,
 	.sf-menu > li.active > a {
-		color: #111111;
+		color: rgb(38, 179, 45) !important; 
 	}
 
 	.nav-narrow .sf-menu > li {
@@ -14385,11 +14390,10 @@ a img.aligncenter {
 		color: rgba(255, 255, 255, 0.5);
 	}
 
-	.ls .sf-menu > li > a:hover,
+	.ls .sf-menu  > li > a:hover,
 	.ls .sf-menu > li.active > a {
-		color: #36b640;
+		color: #17d126;
 	}
-
 
 	.ls .sf-menu > li + li:before {
 		background-color: #e1e1e1;
@@ -14591,7 +14595,7 @@ a img.aligncenter {
 }
 
 .toggle_menu.mobile-active {
-	background-color: #5b83cd;
+	background-color:  #3bb14e;
 	border: none;
 	left: auto;
 	margin: 0;
@@ -14680,7 +14684,7 @@ a img.aligncenter {
 
 	.sf-menu {
 		background-color: #fff;
-		border-top: 61px solid #5b83cd;
+		border-top: 61px solid #3bb14e;
 		bottom: 0;
 		color: #4c4c4c;
 		display: block;
@@ -15036,7 +15040,7 @@ a img.aligncenter {
 
 .page_header a {
 	display: inline-block;
-	color: #000000;
+	color: #152715;
 }
 
 .page_header .btn {
@@ -17580,6 +17584,11 @@ img.absolute_image {
 .background-gradient2 {
 	background: linear-gradient(90deg, rgba(23,99,23,1) 14%, rgba(50,156,50,1) 40%, rgba(51,173,51,1) 100%);
 }
+.background-gradient2-color{
+	background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #6fb94c;  /* fallback for old browsers */
+}
 .booking-form {
 		background: linear-gradient(to right, rgb(60, 165, 92), rgb(181, 172, 73));
 }
@@ -18248,7 +18257,7 @@ a.link-main2:hover {
 
 .about-section h3 {
 	line-height: 1;
-	margin-bottom: 50px;
+	margin-bottom: 8px;
 	margin-top: 0;
 }
 
@@ -18271,16 +18280,17 @@ a.link-main2:hover {
 }
 
 .about-section .side-image img {
-	margin-left: -21%;
-	max-width: 112%;
-	margin-top: 80px;
-	margin-bottom: 80px;
+    margin-left: -61%;
+    max-width: 270%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 @media (max-width: 991px) {
 	.about-section .side-image img {
 		margin: -10px 0 0;
 		max-width: 100%;
+		margin-bottom: -6px;
 	}
 }
 
