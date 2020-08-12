@@ -10729,9 +10729,9 @@ h5.special-heading {
 .testimonials-slider .quote-item .quote-inner .quote-meta {
 	color: #f9fffa;
 	letter-spacing: 0.4em;
-	margin-bottom: 8px;
-    margin-left: -9px;
-    margin-top: -13px;
+	margin-bottom: 20px;
+	margin-left: -9px;
+	margin-top: 48px;
 }
 
 @media (max-width: 767px) {
@@ -18337,7 +18337,6 @@ a.link-main2:hover {
 .about-section h5 {
 	letter-spacing: 0.2em;
 	margin-bottom: 7px;
-	margin-left: -9px;
 }
 
 @media (max-width: 767px) {
