@@ -17673,6 +17673,12 @@ img.absolute_image {
 .background-gradient2 {
 	background: linear-gradient(90deg, rgba(23,99,23,1) 14%, rgba(50,156,50,1) 40%, rgba(51,173,51,1) 100%);
 }
+.background-gradient2-color{
+	background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #6fb94c;  /* fallback for old browsers */
+}
+
 .booking-form {
 		background: linear-gradient(to right, rgb(60, 165, 92), rgb(181, 172, 73));
 }
@@ -18341,7 +18347,7 @@ a.link-main2:hover {
 
 .about-section h3 {
 	line-height: 1;
-	margin-bottom: 50px;
+	margin-bottom: 8px;
 	margin-top: 0;
 }
 
@@ -18364,10 +18370,10 @@ a.link-main2:hover {
 }
 
 .about-section .side-image img {
-	margin-left: -21%;
-	max-width: 112%;
-	margin-top: 80px;
-	margin-bottom: 80px;
+	margin-left: -61%;
+	max-width: 270%;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 @media (max-width: 991px) {
