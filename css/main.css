@@ -17667,11 +17667,11 @@ img.absolute_image {
 
 
 .background-gradient {
-	background: linear-gradient(to right, rgb(60, 165, 92), rgb(181, 172, 73));
+	background: linear-gradient(90deg, rgba(23,99,23,1) 14%, rgba(50,156,50,1) 40%, rgba(51,173,51,1) 100%);
 }
 
 .background-gradient2 {
-	background: linear-gradient(90deg, rgba(23,99,23,1) 14%, rgba(50,156,50,1) 40%, rgba(51,173,51,1) 100%);
+	background: linear-gradient(90deg, rgba(53,147,53,1) 0%, rgba(91,226,91,1) 48%, rgba(91,217,91,1) 100%);
 }
 .background-gradient2-color{
 	background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
@@ -18656,7 +18656,7 @@ a.link-main3:hover {
 	max-width: 100%;
 	-webkit-transition: all 0.3s ease-in-out 0s;
 	transition: all 0.3s ease-in-out 0s;
-	width: 120px;
+	width: 180px;
 }
 
 .image-styled img {
