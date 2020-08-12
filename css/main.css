@@ -1623,11 +1623,11 @@ p + .progress {
 }
 
 .owl-carousel .owl-dots .owl-dot:hover:after {
-	color: #ffffff;
+	color: #0bda26;
 }
 
 .owl-carousel .owl-dots .owl-dot:after {
-	color: #ffffff;
+	color: #3b9647;
 	content: counter(number, decimal-leading-zero);
 	counter-increment: number;
 	font-size: 12px;
@@ -1642,7 +1642,7 @@ p + .progress {
 }
 
 .owl-carousel .owl-dots .owl-dot.active:after {
-	color: #ffffff;
+	color: #3b9647;
 	text-decoration: line-through;
 }
 
@@ -10743,8 +10743,8 @@ h5.special-heading {
 }
 
 .testimonials-slider .quote-item .quote-inner .quote-content {
-	color: #fffafa;
-	font-size: 20px;
+	color: #000000;
+	font-size: 16px;
 	font-style: italic;
 	font-weight: 300;
 	line-height: 30px;
@@ -17671,7 +17671,7 @@ img.absolute_image {
 }
 
 .background-gradient2 {
-	background: linear-gradient(90deg, rgba(53,147,53,1) 0%, rgba(91,226,91,1) 48%, rgba(91,217,91,1) 100%);
+	background: linear-gradient(90deg, rgba(247,246,251,1) 0%, rgba(247,246,251,1) 48%, rgba(247,246,251,1) 100%);
 }
 .background-gradient2-color{
 	background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
