@@ -1991,7 +1991,6 @@ Owl Default Theme
 	}
 }
 
-
 .flex-pauseplay span {
 	text-transform: capitalize;
 }
@@ -18747,6 +18746,11 @@ a.read-more.service-btn:hover {
 	margin-top: -40px;
 	position: absolute;
 	z-index: 5;
+}
+@media (max-width: 747px) {
+	.animated-arrow {
+		display: none;
+	}
 }
 
 .animated-arrow .mouse_scroll {
