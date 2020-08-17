@@ -273,6 +273,12 @@ a:hover {
 	-webkit-transition: all 0.15s linear 0s;
 	transition: all 0.15s linear 0s;
 }
+.contato-whats:hover {
+	color: #3197d4;
+	text-decoration: none;
+	-webkit-transition: all 0.15s linear 0s;
+	transition: all 0.15s linear 0s;
+}
 
 blockquote {
 	font-style: italic;
@@ -17368,8 +17374,11 @@ img.absolute_image {
 	margin-top: 20px !important;
 }
 
-.page_footer .widget_icons_list a {
-	color: #c280bf;
+.page_footer .widget_icons_list a  {
+	color: #27a338;
+}
+.contato-whats{
+	color: #27a338;
 }
 
 .page_footer .widget_icons_list a:hover {
